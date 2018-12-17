@@ -14,3 +14,5 @@ git add file2.txt file3.txt
 git commit -m "no exist"
 
 git status
+
+git diff git_command.txt
