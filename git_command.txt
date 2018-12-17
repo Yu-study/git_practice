@@ -16,3 +16,14 @@ git commit -m "no exist"
 git status
 
 git diff git_command.txt
+
+git log
+
+git log --pretty=oneline
+
+#return to last version
+git reset --hard HEAD^
+
+#return to given version
+git reset --hard 1094a
+
