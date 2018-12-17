@@ -35,3 +35,4 @@ git reset HEAD git_command,txt
 git rm test.txt
  git commit -m "WTF"
  git checkout -- test.txt
+ git checkout HEAD -- test.txt
