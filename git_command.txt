@@ -1,1 +1,16 @@
 ﻿git command
+cd /g/Yu_study/git_parctice
+pwd
+##initialize
+git init
+
+git add git_command.txt
+git commit -m "version1.0"
+
+##we can add several files and commit these
+For example:
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "no exist"
+
+git status
