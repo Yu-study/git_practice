@@ -36,3 +36,17 @@ git rm test.txt
  git commit -m "WTF"
  git checkout -- test.txt
  git checkout HEAD -- test.txt
+ 
+ git remote add origin git@github.com:Yu-study/git_practice.git
+ #if fatal: remote origin already exists.
+ git remote rm origin
+ 
+ #first link
+ ssh -T git@github.com
+ 
+ ping github.com
+ 52.74.223.119
+ 
+ ##check some ssh key
+ $ ssh-keygen -t rsa -C "youremail@example.com"
+ git remote add origin git@github.com:Yu-study/git_practice.git
